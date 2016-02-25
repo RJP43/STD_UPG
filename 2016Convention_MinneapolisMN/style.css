@@ -1,0 +1,89 @@
+html{
+    background-color: #FFFAE6; 
+    color: #580000;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+    font-size:24px
+}
+
+a:link {
+   font-size:large;
+   font-weight:bold;
+   color:#42033D;
+   text-decoration:underline;
+}
+
+a:visited {
+    font-size:large;
+    color: #42033D;
+    text-decoration:underline;
+}
+
+a:active {
+    color: #8A716A;
+    font-size:large;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size:larger;
+    background-color: #8E9AAF;
+    text-decoration:none;    
+}
+
+
+body{
+    text-align:left;
+    width:100%;
+border-radius: 10px;
+}
+
+img{
+    padding:10px 20px 20px;
+	margin:10px auto;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #FFFFFF;
+	display:block;
+	position:relative;
+	text-align:center;
+}
+
+img#russianDolls {
+    width:50%;
+}
+
+#header {
+	padding:10px 20px 20px;
+	margin:10px auto;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #FFFFFF;
+	display:block;
+	position:relative;
+	text-align:center;
+}
+
+div#menu{
+background-color: #FFEBC2;
+text-align:center;
+}
+
+#menu ul {
+	padding:0px;
+	list-style-type:none;
+}
+
+#menu li {
+	margin:0px 20px;
+	padding:10px;
+	list-style-type:none;
+}
+
+
+
+
+
