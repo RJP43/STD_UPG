@@ -27,7 +27,7 @@
 
         <stanza>
             <sent num="5">I thought about how far away <anth>Death</anth> once<line/> had seemed, how
-                unexpected that it could<line/> happen to someone I knew quite well,<line/></sent>
+                unexpected that it could<line/> happen to someone I knew quite well,</sent><line/>
         </stanza>
 
         <stanza>
