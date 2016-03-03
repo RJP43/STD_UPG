@@ -1,0 +1,13 @@
+html {
+    background: #5FD5CC;
+    color:black
+}
+.love {
+    color:red
+}
+.death {
+    font-weight:bold
+}
+.person {
+    text-decoration: underline
+}
