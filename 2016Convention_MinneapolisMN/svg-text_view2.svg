@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <g transform="translate(100,100)" alignment-baseline="baseline">
+        <circle cx="200" cy="175" r="275" fill="beige"/>
+        <text x="-19" y="25">Suddenly, I stopped thinking about Love,
+            <tspan x="-33"  y = "40">after so many years of only that,</tspan>
+            <tspan x="-40"  y = "55">after thinking that nothing else mattered.</tspan></text>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="258"
+            y1="65"
+            y2="65"/>
+        <text x="-53" y="85">And what was I thinking of when I stopped
+            <tspan x="-55"  y="100">thinking about Love?</tspan></text>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="148"
+            y1="110"
+            y2="110"/>
+        <text x="-63" y="130">Death, of course—what else
+            <tspan x="-65"  y="145">could take Love's place?</tspan></text>
+        <line stroke-linecap="round"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="102"
+            y1="155"
+            y2="155"/>
+        <line stroke-linecap="round"
+            stroke="#1E023A"
+            stroke-width="10"
+            x1="0"
+            x2="51"
+            y1="155"
+            y2="155"/>
+        <text x="-70" y="175">What else could hold such force?</text>
+        <line stroke-linecap="round"
+            stroke="#689D99"
+            stroke-width="10"
+            x1="0"
+            x2="64"
+            y1="185"
+            y2="185"/>
+        <text x="-68" y="205">I thought about how far away Death once
+            <tspan x="-65"  y="220">had seemed, how unexpected that it could happen to someone I knew quite well,</tspan>
+            
+            <tspan x="-62"  y ="235">how impossible that this should be the</tspan>
+            <tspan x="-60"  y="250">normal thing, as natural as frost and</tspan>
+            <tspan x="-55"  y="265">winter.</tspan></text>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#1E023A"
+            stroke-width="10"
+            x1="0"
+            x2="454"
+            y1="275"
+            y2="275"/>
+        <text x="-40" y="295">I thought about the way we'd aged,
+            
+            <tspan x="-35"  y="310">how skin fell into wrinkles, how eyes grew</tspan>
+            <tspan x="-25"  y="325">dim; then (of course) my love, I thought of you.</tspan></text>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="310"
+            y1="335"
+            y2="335"/>
+    </g>
+</svg>

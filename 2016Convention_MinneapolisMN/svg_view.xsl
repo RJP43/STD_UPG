@@ -10,15 +10,17 @@
     <xsl:output indent="yes" method="xml"></xsl:output>
     <xsl:template match="/">
         <svg width="100%" height="100%">
-            <g transform="translate(200,100)" alignment-baseline = "baseline">
+            <g transform="translate(100,100)" alignment-baseline = "baseline">
                 <circle cx="200" cy="175" r="275" fill="beige"/>
                 <xsl:apply-templates select="//sent"/>
             </g>
         </svg>
     </xsl:template>
     <xsl:template match="sent">
+        
         <xsl:variable name="y" select="./@n * 50"></xsl:variable>
         <xsl:variable name="x" select="string-length(.) * 2"></xsl:variable>
+        <text x="-50" y="{$y - 25}"><xsl:value-of select="."/></text>
         <xsl:choose>
 
             <xsl:when test=".//w[@id='love'] and .//w[@id='thought']">
