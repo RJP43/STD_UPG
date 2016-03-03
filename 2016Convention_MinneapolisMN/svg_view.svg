@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <g transform="translate(200,100)" alignment-baseline="baseline">
+        <circle cx="200" cy="175" r="275" fill="beige"/>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="258"
+            y1="50"
+            y2="50"/>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="148"
+            y1="100"
+            y2="100"/>
+        <line stroke-linecap="round"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="102"
+            y1="150"
+            y2="150"/>
+        <line stroke-linecap="round"
+            stroke="#1E023A"
+            stroke-width="10"
+            x1="0"
+            x2="51"
+            y1="150"
+            y2="150"/>
+        <line stroke-linecap="round"
+            stroke="#689D99"
+            stroke-width="10"
+            x1="0"
+            x2="64"
+            y1="200"
+            y2="200"/>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#1E023A"
+            stroke-width="10"
+            x1="0"
+            x2="454"
+            y1="250"
+            y2="250"/>
+        <line stroke-linecap="round"
+            stroke-dasharray="5,15"
+            stroke="#D46A6A"
+            stroke-width="10"
+            x1="0"
+            x2="310"
+            y1="300"
+            y2="300"/>
+    </g>
+</svg>
