@@ -3,6 +3,55 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <title>At The Moment</title>
       <link rel="stylesheet" type="text/css" href="example.css" />
+      <script type="text/javascript">
+         
+                 	
+      window.onload = function(){
+         rotateAnimation("full-unicorn", 50);
+      }
+      var looper;
+      var degrees = 0;
+      var pixels = 0;
+      
+    
+      
+      function rotateAnimation(el,speed){
+      var elem = document.getElementById(el);
+      if(navigator.userAgent.match("Chrome") || navigator.userAgent.match("Safari")){
+            elem.style.WebkitTransform = "translate("+pixels+"px) rotate("+degrees+"deg)";
+        } 
+         else if(navigator.userAgent.match("Firefox")){
+            elem.style.MozTransform = "rotate("+degrees+"deg)";
+         } 
+         else if(navigator.userAgent.match("MSIE")){
+            elem.style.msTransform = "rotate("+degrees+"deg)";
+         } 
+         else if(navigator.userAgent.match("Opera")){
+            elem.style.OTransform = "rotate("+degrees+"deg)";
+      
+         } 
+         else {
+            elem.style.transform = "rotate("+degrees+"deg)";
+         }
+      looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+      degrees += 1;
+      pixels += 5;
+      if(degrees > 359){
+         degrees = 1;
+      }
+      rect = elem.getBoundingClientRect();
+      console.log(rect.right)
+      g = -100
+      //w = document.getBoundingClientRect();
+      if(rect.right > 1600){
+         elem.style.WebkitTransform = "translate("+g+"px)";
+         pixels = 0;
+        }
+      
+      }
+      
+      
+      </script>
    </head>
    <body>
 
@@ -10,39 +59,6 @@
       <h2>JOYCE SUTPHEN</h2>
       
       
-      
-<!--   
-      
-      
-        	
- window.onload = function(){
-    rotateAnimation("ring", 100);
-  
-  }
-var looper;
-var degrees = 0;
-function rotateAnimation(el,speed){
-var elem = document.getElementById(el);
-if(navigator.userAgent.match("Chrome") || navigator.userAgent.match("Safari")){
-elem.style.WebkitTransform = "rotate("+degrees+"deg)";
-} else if(navigator.userAgent.match("Firefox")){
-elem.style.MozTransform = "rotate("+degrees+"deg)";
-} else if(navigator.userAgent.match("MSIE")){
-elem.style.msTransform = "rotate("+degrees+"deg)";
-} else if(navigator.userAgent.match("Opera")){
-elem.style.OTransform = "rotate("+degrees+"deg)";
-} else {
-elem.style.transform = "rotate("+degrees+"deg)";
-}
-looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
-degrees += 1;
-if(degrees &gt; 359){
-degrees = 1;
-}
-}
-
-        
-      -->
       
       
       <p>
@@ -81,6 +97,8 @@ degrees = 1;
       
       
       
-      
+      <div id="full-unicorn">
+         <img src="full-unicorn.gif" alt="No unicorn for you!"></img>
+      </div>
    </body>
 </html>
