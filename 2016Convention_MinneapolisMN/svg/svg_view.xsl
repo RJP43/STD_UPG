@@ -20,7 +20,7 @@
         
         <xsl:variable name="y" select="./@n * 50"></xsl:variable>
         <xsl:variable name="x" select="string-length(.) * 2"></xsl:variable>
-        <text x="-50" y="{$y - 25}"><xsl:value-of select="."/></text>
+       <!-- <text x="-50" y="{$y - 25}"><xsl:value-of select="."/></text>-->
         <xsl:choose>
 
             <xsl:when test=".//w[@id='love'] and .//w[@id='thought']">
