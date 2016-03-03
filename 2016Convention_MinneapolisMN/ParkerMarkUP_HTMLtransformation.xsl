@@ -28,9 +28,17 @@
     </xsl:template>-->
     <xsl:template match="stanzaEnd">
         <br/>
-        <br/>
     </xsl:template>
     <xsl:template match="sent">
-        <span class="sentence"><xsl:apply-templates/></span>
+        <xsl:text>  |   </xsl:text><xsl:apply-templates/><xsl:text>  |   </xsl:text>
+    </xsl:template>
+    <xsl:template match="w[@id='love']">
+        <span class="love"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="w[@id='death']">
+        <span class="death"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="person">
+        <span class="person"><xsl:apply-templates/></span>
     </xsl:template>
 </xsl:stylesheet>
