@@ -3,13 +3,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color : #E60BA0;
-    text-align:center;  
+   /*text-align:center; */ 
+   margin-left: 650px;
+   
     cursor : url(too1137.cur), auto;
 }
     
 
 span.anth {
-    font-weight : 999;
+    font-weight: 900;
     font-size : 200%;
     
 }
