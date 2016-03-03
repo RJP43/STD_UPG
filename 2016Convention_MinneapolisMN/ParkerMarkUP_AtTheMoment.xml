@@ -8,20 +8,20 @@
         <byline>BY JOYCE SUTPHEN</byline>
     </header>
     <body>
-        <sent>Suddenly, <person type="speaker">I</person> stopped <w id="thought">thinking</w> about <w id="love">Love</w>,<lb/>
+        <sent n="1">Suddenly, <person type="speaker">I</person> stopped <w id="thought">thinking</w> about <w id="love">Love</w>,<lb/>
 after so many years of only that,<lb/>
             after <w id="thought">thinking</w> that nothing else mattered.</sent><lb/>
         <stanzaEnd/>
-        <sent>And what was <person type="speaker">I</person> <w id="thought">thinking</w> of when <person type="speaker">I</person> stopped<lb/>
-            <w id="thought">thinking</w> about <w id="love">Love</w>?</sent> <sent><w id="death">Death</w>, of course—what else<lb/>
-could take <w id="love">Love</w>'s place?</sent> <sent>What else could hold such force?</sent><lb/>
+        <sent n="2">And what was <person type="speaker">I</person> <w id="thought">thinking</w> of when <person type="speaker">I</person> stopped<lb/>
+            <w id="thought">thinking</w> about <w id="love">Love</w>?</sent> <sent n="3"><w id="death">Death</w>, of course—what else<lb/>
+could take <w id="love">Love</w>'s place?</sent> < n="4"sent>What else could hold such force?</sent><lb/>
         <stanzaEnd/>
-        <sent><person type="speaker">I</person> <w id="thought">thought</w> about how far away <w id="death">Death</w> once<lb/>
+        <sent n="5"><person type="speaker">I</person> <w id="thought">thought</w> about how far away <w id="death">Death</w> once<lb/>
 had seemed, how unexpected that it could<lb/> happen to someone <person type="speaker">I</person> knew quite well,<lb/>
             <stanzaEnd/>
 how impossible that this should be the<lb/>
 normal thing, as natural as frost and<lb/>
-            winter.</sent> <sent><person type="speaker">I</person> <w id="thought">thought</w> about the way we'd aged,<lb/>
+            winter.</sent> <sent n="6"><person type="speaker">I</person> <w id="thought">thought</w> about the way we'd aged,<lb/>
             <stanzaEnd/>
 how skin fell into wrinkles, how eyes grew<lb/>
                 dim; then (of course) my <w id="love">love</w>, <person type="speaker">I</person> <w id="thought">thought</w> of <person type="audience">you</person>.</sent><lb/>
