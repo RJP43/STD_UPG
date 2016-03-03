@@ -13,7 +13,7 @@
       var degrees = 0;
       var pixels = 0;
       
-    
+      right = false;
       
       function rotateAnimation(el,speed){
       var elem = document.getElementById(el);
@@ -34,19 +34,18 @@
             elem.style.transform = "rotate("+degrees+"deg)";
          }
       looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
-      degrees += 1;
-      pixels += 5;
+      degrees += 3;
+      if(right == true)
+         pixels += 5;
+      else
+         pixels -= 5;
       if(degrees > 359){
          degrees = 1;
+         right = true;
       }
       rect = elem.getBoundingClientRect();
-      console.log(rect.right)
-      g = -100
+   //   console.log(rect.right)
       //w = document.getBoundingClientRect();
-      if(rect.right > 1600){
-         elem.style.WebkitTransform = "translate("+g+"px)";
-         pixels = 0;
-        }
       
       }
       
