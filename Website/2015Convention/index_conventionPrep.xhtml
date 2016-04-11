@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>DH Learn Text Encoding</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+    </head>
+    <body>
+        <div id="header">
+            <h1>LEARN TEXT ENCODING!</h1>
+            <h2>&lt;digital type="humanities"/&gt;</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="http://turkish.obdurodon.org/"> Turkish Rock Music : Determing Elements that Coordinate with a Well Formed Heirarchy </a></li>
+                    <li><a href="http://pacific.pitt.edu/dhds/nellNelson/index.xhtml"> Restoration of Nell Nelson : Creating Validity with the Schema </a></li>
+                    <li><a href="http://rap.obdurodon.org"> Russian Rap Project : Visualizing Research Questions</a></li>
+                    <li><a href="http://joey.obdurodon.org/"> Joey Bada$$ :  Scholarly, Cultural Exploration </a></li>
+                    <li><a href="http://rocketsaucer.github.io/"> Frank O'Hara : Quantifying Poetry</a></li>
+                    <li><a href="http://www.hanksville.org/voyage/poems/hardcore.html"> Simon Ortiz Poem :  Biography &amp; Poetic Style and Themes</a></li>
+                    <li><a href="http://www.oxygenxml.com/download_oxygenxml_editor.html">Download Oxygen XML Editor : Let's Code!!!</a></li>
+                    <li><a href="http://dh.obdurodon.org">Obdurodon Tutorials - University of Pittsburgh Main Campus</a></li>
+                    <li><a href="http://www.pitt.edu/~ebb8/DHDS/">Dr. Beshero-Bondar's Tutorials - University of Pittsburgh @ Greensburg</a></li>
+                    <li><a href="http://www.tei-c.org/index.xml">TEI Website</a></li>
+                    <li><a href="http://www.w3schools.com/">w3Schools Website</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div id="text">
+            <div id="xml">
+                <h2>&lt;xml id=“eXtensible Markup Language”/&gt;</h2>
+                <ul>
+                <li>informational markup (or "code")</li>
+                <li>method for storing and sharing information</li>
+                <li>freely exchangeable between computers of different kinds/platforms</li>
+                </ul>
+            </div>  
+            <div id="wellformedHierarchies">
+                <h2>Organizing Hierarchies</h2>
+                <h4>Important Concepts to Understand when creating Hierarchies: <b><a>Russian Nesting Dolls</a></b> or <b><a>Family Tree</a></b> or <b><a>BOXES in BOXES</a></b></h4>
+                <div id="russianNesting"><h4>Russian Nesting Dolls</h4>
+                    <img src="images/russianNestingdolls2.jpg" alt="Russian Nesting Dolls"/>
+                    <img src="images/russianNestingdolls2.jpg" alt="Russian Nesting Dolls"/>
+                </div>
+                <div id="familyTree"><h4>Family Tree</h4>
+                    <ul>
+                        <li>element hierarchies resemble 
+                            the descent of a family tree</li>
+                        <li>relationships are referred to similarily ie. <ol><li>ancestor</li><li>descendent</li><li>sibling</li><li>parent</li></ol></li>
+                    </ul>
+                    <img src="images/familyTree.jpg" alt="Family Tree : Kinship Relation"/>
+                </div>
+                <div id="boxes"><h4>Boxes in Boxes</h4>
+                    <ul>
+                        <li>Elements are boxes</li>
+                        <li>Attributes distinguish box types.</li>
+                    </ul>
+                    <img src="images/boxes.jpg" alt="BOXES in BOXES"/>
+                </div>
+                <h2>Well-formedness</h2>
+                <ul>
+                    <li>
+                        Everything (elements, tags, attributes, references, comments, processing instructions, and marked sections) is properly delimited.
+                    </li>
+                    <li>
+                        There is a single root element that contains all of the other elements both structural and contextual in nature. 
+                    </li>
+                    <li>
+                        No elements overlap; therefore, there is a heirarchy or kinship relation in place.
+                    </li>
+                </ul>
+                <div id="theElement"><h3>The Element</h3>
+                    
+                    <ul>
+                        <li>every tag / element begins with &lt; and ends with &gt; some elements that don’t contain any internal text are self closing.</li>
+                        <li>element is to attribute as noun is to adjective</li>
+                   </ul>
+                    <p>Self-closing elements: the subtitle of this workshop <b>&lt;digital type="humanities"/&gt; </b></p>
+                    
+                    <p>Basic element structure: <b>&lt;greeting xml:lang="en"&gt;Hello, world! This is the content.&lt;/greeting&gt;</b>
+                    <img src="images/STARTtag.jpg"/>
+                    <img src="images/contentENDtag.jpg"/></p>
+                </div>
+                
+                
+            </div>
+                <div id="markUp">
+                    <h2>Marking Up Texts Envisioning Well Formed Hierarchies</h2>
+                    <h4><a href="http://turkish.obdurodon.org/">Politics and Language of Turkish Rock Music</a></h4>
+                    
+                    <dl id="markup">
+                        
+                        <dt>Structural Mark-Up</dt>
+                        <dd>used to show the basic structure of the text</dd>
+                        <dt>Contextual Mark-Up</dt>
+                        <dd>tagging could include:
+                            <ul><li>focused research question data</li>
+                                <li>translations of foreign language references</li> 
+                                <li>themes</li>
+                                <li>etc.</li>
+                            </ul>
+                         </dd>
+                   </dl>
+                    
+                </div>
+                <div id="validity">
+               <h2>Validity</h2>
+                    
+                <p>A valid XML document follows the 
+                    
+                        <b>Rules of a Schema</b></p>
+                    <ol><li>available vocabulary used to tag elements &amp; attributes</li>
+                        
+                <li>grammar for how the vocabulary is used: rules for nesting, sequencing, etc.</li>
+                    
+                    </ol>
+                   
+                    <h4><a href="http://pacific.pitt.edu/dhds/nellNelson/index.xhtml">The Restoration of Nell Nelson</a></h4>
+                <!--RJP:(using Nelson site) very specific tags that cater to Nelson research 
+                **detailed rules describing hierarchy and meaning behind tags and their placement allow others to take un-transcribed/un-coded articles
+                and code them according to the schema/rules used to code previous articles
+                **coding consistently-->
+              </div>
+          
+        <div id="visualData"><h2>Visualizing Research using Stylesheets</h2>
+        
+            <h4><a href="http://rap.obdurodon.org">Russian Rap Project</a></h4>
+        </div>
+            <div id="researchPossibilities">
+                <h2>Exploring the Applications of XML</h2>
+               
+                <h4><a href="http://joey.obdurodon.org/">The Diachronic Growth of Joey Bada$$</a></h4>
+            </div>
+            <div id="quantifyingPoetry">
+                <h2>Quantifying Texts</h2>
+                
+                <h4><a href="http://rocketsaucer.github.io/">Frank O'Hara's Poetry</a></h4>
+            </div>
+            <div id="container"><h1>LET'S CODE!!!</h1>
+            <div id="ortiz">
+                <h2>Our Author of Interest: Simon Ortiz</h2>
+                <h3>Biography</h3>
+                <ul>
+                    <li>Acoma Pueblo Indian</li>
+                    <li>Born and raised near Albuquerque, New Mexico</li>
+                        <li>Grew up speaking the Acoma tongue</li>
+                        <li>earned a Master of Fine Arts in Writing from the University of Iowa in 1969</li>
+                        <li>During the 1960s he served in the Army, where he suffered discrimination, and worked in a uranium mining industry whose profit-driven desecration of the land he would later movingly protest</li>
+                        <li>In the early 1970s he began to write in earnest while teaching at various colleges</li>
+                        <li>In 1982 won a Pushcart Prize and a wide audience with From Sand Creek </li>
+                </ul>
+                    
+                <h3>Poetic Style and Themes</h3>
+                <ul>
+                    <li>Simple in its diction and rhythms</li>
+                <li>Expresses great reverence for beloved landscapes</li> 
+                    <li>intense rage against the de-humanizing forces of excessive development and mechanization</li>
+                <li>Concerned with modern man’s alienation from others, from himself, and from his environment—urging as a solution our meaningful re-connection with the wisdom of ancestral spirits and with our Mother Earth</li>
+                </ul>
+                
+                <!--RJP: why might a coder want to know a brief bio. And/or poetic themes/style of the poet : aid in mark-up ex.)specific rhythm commonly used might cause specific structural element tags ex.)code based on common themes for contextual mark-up-->
+                <h4><a href="http://www.hanksville.org/voyage/poems/hardcore.html">Our Poem (as available online)</a></h4>
+            </div></div>
+        </div> 
+        <footer>
+            Email Addresses of Panelists
+             <ul>   
+                <li>Dr. Beshero-Bondar - ebb8@pitt.edu</li>
+                <li>Rebecca Parker - Nell Nelson Project - rjp43@pitt.edu</li>
+                <li>Alexandra Krongel - Turkish Rock Music - alexandrakrongel@gmail.com</li>
+                <li>Andrew Knitz - Russian Rap Project - acn23@pitt.edu</li>
+                <li>Ben Garfinkel - Joey BadA$$ - bengarfinkel16@gmail.com</li>
+                <li>Luke McDermott - Frank O'Hara - ldm37@pitt.edu</li>
+             </ul>
+        </footer>
+    </body>
+</html>
