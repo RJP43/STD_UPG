@@ -83,7 +83,7 @@ p{
     margin-bottom:15px;
     border-radius:5px;
 }
-#alt{
+.alt{
     width:90%;
     margin:auto;
     padding:5px;
@@ -99,14 +99,17 @@ p{
     width:75%;
     margin:auto;
 }
-#toggle{
+
+#toggle /*, #toggle1, #toggle2*/{
     margin:auto;
     padding:5px;
     display:none;
     font-size:16px;
+    text-align:left;
 }
 #welcome{
-    margin:10px auto;
+    width:100%;
+    margin:10px;
     background-color:#002A5E;
     border:none;
     border-radius:20px;
@@ -116,23 +119,39 @@ p{
     text-decoration:none;
     display:inline-block;
     font-size:16px;
-
 }
-#involve h2{
+.chapter{
+    width:50%;
+    margin: 10px auto;
+    background-color:#002A5E;
+    border:none;
+    border-radius:20px;
+    color:#CDB77C;
+    padding:5px;
     text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+}
+h2{
+    width:100%;
+    text-align:center;
+    margin: 5px;
 }
 #involve{
-    width:70%;
+    width:65%;
+    margin:auto;
 }
 .listP,
 ol{
     font-size:16px;
     text-align:left;
     font-weight:normal;
-    margin: -10px auto;
-    padding:7px;
+    margin-top: -20px;
+    padding: 5px;
 }
-#involve li {
+#involve li{
+    margin-left: 20px;
     padding:2px;
 }
 .content a{
