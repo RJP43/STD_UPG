@@ -100,12 +100,17 @@ p{
     margin:auto;
 }
 
-#toggle /*, #toggle1, #toggle2*/{
+#toggle , #toggle1, #toggle2{
     margin:auto;
     padding:5px;
     display:none;
     font-size:16px;
     text-align:left;
+}
+#toggle2 ul{
+    margin:auto;
+    width:80%;
+    padding:5px
 }
 #welcome{
     width:100%;
@@ -192,6 +197,8 @@ td{
     text-align:left;
     background-color:#CDB77C;
 }
+a img { display:none; }
+a:hover img { display:block; }
 .footer{
     text-align:center;
     width:100%;
