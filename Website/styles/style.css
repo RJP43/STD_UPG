@@ -197,8 +197,9 @@ td{
     text-align:left;
     background-color:#CDB77C;
 }
-a img { display:none; }
-a:hover img { display:block; }
+a.profs img { display:none; }
+a.profs:hover img { display:block; }
+
 .footer{
     text-align:center;
     width:100%;
