@@ -10,7 +10,7 @@ function init() {
     var buttons = document.getElementsByTagName("button")
     
     var button1 = buttons[0]
-    button1.addEventListener('click', show_hide1, false);
+    button1.addEventListener('click', show_hide, false);
 }
 function show_hide() {
     if (document.getElementById('toggle').style.display != "none") {
@@ -18,20 +18,4 @@ function show_hide() {
     } else {
         document.getElementById("toggle").style.display = "block";
     }
-    /*var rec = document.getElementById('recMo');
-    var rev = document.getElementById('revMo');
-    
-    rec.onmouseover = function () {
-        document.getElementById('popUp1').style.display = 'block';
-    }
-    rec.onmouseout = function () {
-        document.getElementById('popUp1').style.display = 'none';
-    }
-    
-    rev.onmouseover = function () {
-        document.getElementById('popUp2').style.display = 'block';
-    }
-    rev.onmouseout = function () {
-        document.getElementById('popUp2').style.display = 'none';
-    }*/
 }
