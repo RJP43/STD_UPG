@@ -174,19 +174,21 @@ caption{
     padding:5px;
     font-size:18px;
 }
+h4{
+    margin-bottom: -5px;
+}
 .eventPage{
     width:90%;
     text-align:left;
     padding:5px;
     font-size:14px;
-    margin-top:-20px;
-    margin-left: 50px;
+    margin: auto;
     font-weight:normal
 }
 ul.eventPage{
-    width:75%;
-    margin-top:-20px;
-    margin-left: 100px;
+    width:80%;
+    margin: auto;
+    
 }
 p#popUp1{
     display:none;
