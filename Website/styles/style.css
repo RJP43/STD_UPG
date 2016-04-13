@@ -164,15 +164,29 @@ ol{
     color:#002A5E;
 }
 
-.contact{
+.contact, .events{
     margin:10px auto;
     width:100%;
     font-weight:bold;
 }
-.contact caption{
+caption{
     text-align:left;
     padding:5px;
     font-size:18px;
+}
+.eventPage{
+    width:90%;
+    text-align:left;
+    padding:5px;
+    font-size:14px;
+    margin-top:-20px;
+    margin-left: 50px;
+    font-weight:normal
+}
+ul.eventPage{
+    width:75%;
+    margin-top:-20px;
+    margin-left: 100px;
 }
 p#popUp1{
     display:none;
