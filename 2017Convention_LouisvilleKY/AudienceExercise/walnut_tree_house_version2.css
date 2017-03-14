@@ -1,0 +1,43 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width:90%;
+    background:#ffb3b3;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{
+    text-align:center;
+    font-size:70px;
+    border-style:dashed;
+    border-color:#730099;
+    color:#b300b3;
+    background:pink;
+}
+
+h2{
+    text-align:center;
+    font-size: 30px;
+    color:#b300b3;
+}
+
+div{
+    text-align:left;
+    border-style:dashed;
+    border-color:#730099; 
+    background:pink;
+}
+
+p{
+    padding:8px;
+    font-size: 20px;
+}
+
+span.persName{
+    color:#bf4080;
+}
