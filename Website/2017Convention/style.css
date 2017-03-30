@@ -1,3 +1,17 @@
+html{
+    background-color:black;
+    color:white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18pt;
+}
+
+.red{
+    color:red;
+}
+.deepRed{
+    color:#b30000;
+    margin-left:65px;
+}
 .imgRight{
     float:right;
     width:30%;
@@ -11,7 +25,7 @@ contentLeft{
     padding:5px;
 }
 a{
-    color:red;
+    color:white;
     font-weight:bold;
 }
 ul{
@@ -28,7 +42,10 @@ p{
     margin-left:25px;
 }
 h1{
-    margin-left:300px;
+    margin-left:200px;
+}
+.further{
+     margin-left:230px;
 }
 h3{
     margin-left:25px;
