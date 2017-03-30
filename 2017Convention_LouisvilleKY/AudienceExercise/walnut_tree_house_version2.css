@@ -4,8 +4,8 @@ html{
 }
 
 body{
-    width:90%;
-    background:#ffb3b3;
+    width:60%;
+    background-image: url("pinkGhost.gif");
     margin: 0px;
     padding-left: 5%;
     padding-right: 5%;
@@ -39,5 +39,7 @@ p{
 }
 
 span.persName{
-    color:#bf4080;
+    color:#800033;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
