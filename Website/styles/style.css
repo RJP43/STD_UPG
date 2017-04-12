@@ -13,6 +13,7 @@ body{
     background-color:#FFFFFF;
     border-radius:25px;
     font-family:serif, helvetica, arial;
+    padding:10px;
     /*padding-top:3px;
     padding-right:20px;
     padding-bottom:10px;
@@ -21,18 +22,20 @@ body{
 p{
     text-align:center;
     font-weight:bolder;
-    font-size:16px;
+    font-size:18px;
+    padding:10px;
 }
 .header{
     /*width:100%;*/
-    margin:0px auto;
-    height:100px;
+    margin:auto;
+    /*height:100px;*/
     text-align:center;
     font-style:italic;
 }
 .pageTitle{
     font-size:65px;
     color:black;
+    margin:auto;
 }
 .chapTitle{
     font-size:55px;
@@ -44,12 +47,10 @@ p{
     color:#FFFFFF;
     background:#A50134;
     /*width:100%;*/
+    margin:auto;
     font-size:20px;
     font-weight:bold;
     padding:5px;
-}
-.nav > ul > li > a{
-    display:inline-block;
 }
 .nav > ul > li:hover > a{
     background:#CDB77C;
@@ -64,7 +65,6 @@ p{
     /*width:100%;*/
     text-align:center;
     padding:5px;
-    margin:auto;
 }
 .nav li{
     display:inline;
