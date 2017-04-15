@@ -14,6 +14,7 @@ body{
     border-radius:25px;
     font-family:serif, helvetica, arial;
     padding:10px;
+    margin:auto;
     /*padding-top:3px;
     padding-right:20px;
     padding-bottom:10px;
@@ -95,6 +96,10 @@ p{
     margin-left:200px;
     padding:3px
 }
+.content h4{
+    padding:25px;
+    margin-left:10px;
+}
 #welcomeButt{
     width:75%;
     margin:auto;
@@ -175,7 +180,8 @@ caption{
     font-size:18px;
 }
 h4{
-    margin-bottom: -5px;
+    margin:10px;
+    padding:10px;
 }
 .eventPage{
     width:90%;
